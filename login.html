@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="image/Group 72.png" />
+      <h1>Log In</h1>
+      <form class="f" id="form">
+        <input type="text" id="mail" name="mail" placeholder="User Id" value="Vignesh"/><br />
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="Your password" value="Vignesh123@"
+        /><br /><br />
+        <input type="button" value="login" id="button" onclick="load()" />
+        <br>
+        <br>
+        <span style="color: red; display: none;" id="chk">Invalid Credentials</span>
+      </form>
+         <script src="login.js"></script>
+    </div>
+  </body>
+</html>
